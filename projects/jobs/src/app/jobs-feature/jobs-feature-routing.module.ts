@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SearchJobsComponent } from './search-jobs/search-jobs.component';
 
-
-const routes: Routes = [ { 
-  path: 'jobs',
-  loadChildren: () => import('./jobs-feature/jobs-feature.module').then(m => m.JobsFeaturemodule)
-}
-];
+const routes: Routes = [
+  { path: '', component: SearchJobsComponent }
+]
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
