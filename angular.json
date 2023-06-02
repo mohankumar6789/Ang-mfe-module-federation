@@ -27,7 +27,8 @@
 						"inlineStyleLanguage": "scss",
 						"assets": [
 							"projects/shell/src/favicon.ico",
-							"projects/shell/src/assets"
+							"projects/shell/src/assets",
+							"projects/shell/src/appsettings"
 						],
 						"styles": [
 							"projects/shell/src/styles.scss"
@@ -100,7 +101,8 @@
 						"inlineStyleLanguage": "scss",
 						"assets": [
 							"projects/shell/src/favicon.ico",
-							"projects/shell/src/assets"
+							"projects/shell/src/assets",
+							"projects/shell/src/appsettings"
 						],
 						"styles": [
 							"projects/shell/src/styles.scss"
